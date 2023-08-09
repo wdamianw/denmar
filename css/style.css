@@ -619,15 +619,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
-  border: 1px solid #e6e6e6;
   height: 270px;
   position: relative;
-  background: #fafafa;
 }
 
 @media (max-width: 768px) {
   #services .box {
-    height: 230px;
+    height: 280px;
   }
 }
 
