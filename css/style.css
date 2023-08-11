@@ -309,7 +309,7 @@ h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   #nav-menu-container {
     display: none;
   }
@@ -406,7 +406,7 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -617,6 +617,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services {
   background: #fff;
   background-size: cover;
+}
+
+#services .park-maszynowy {
+  color: inherit;
+}
+
+#services .park-maszynowy:hover {
+  color: inherit;
 }
 
 #services .box {
@@ -830,6 +838,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item:hover img {
   top: -30px;
+}
+
+/* Park maszynowy */
+#park-maszynowy {
+  background: #f7f7f7;
+  padding: 40px 0;
+}
+
+#park-maszynowy img {
+  height: 100%;
+  width: 100%;
 }
 
 /* Team Section
@@ -1146,10 +1165,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*---------------*/
 /***** Honey *****/
 /*---------------*/
-
-figure.effect-honey {
-  background: #4a3753;
-}
 
 figure.effect-honey img {
   opacity: 0.9;
